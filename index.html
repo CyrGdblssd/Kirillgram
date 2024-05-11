@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="storka">
+        <img class="logo" src="app.png" alt="">
+        <h1 class="Kirillgram" ><b>Kirillgram</b></h1>
+    </nav>
+    <section id="posts">
+        <div id="postsBox">
+            <div id="firstPost" class="post">
+                <div class="avaBox">
+                    <img id="imgpost" class="ava" src="ava.png">
+                    <b>Kirill</b>
+                </div>
+                <img class="img" src="pic1.png">
+                <div class="likes">
+                    <a href="javascript:void(0)" onclick="like()" class="likebtn"><img class="like" src="like.png"></a>
+                    <b class="like">Likes: </b><p id="howmany"> 35 </p>
+                </div>
+                <div class="text1" id="text">
+                    Добрый день, это РФМШ.
+                </div>
+                <div class="line"></div>
+                <div id="comments">
+
+                </div>
+                <input id="comment">
+                <a href="javascript:void(0)" onclick="addcomment()" class="sendfield"><img class="send" src="send.png"></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

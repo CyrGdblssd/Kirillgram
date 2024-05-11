@@ -1,0 +1,132 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#comments {
+    font-size: 20px;
+}
+
+.send {
+    position: relative;
+    top: 45px;
+    left: -60px;
+}
+
+.line {
+    position: relative;
+    top: 10px;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comment {
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+#comments {
+}
+
+.likebtn {
+    width: 40px;
+    height: 40px;
+}
+
+.img {
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.storka {
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right:20px;
+    position: relative;
+    left: -250px;
+}
+
+.Kirillgram {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: -250px;
+    color: black;
+}
+
+    .Kirillgram:hover {
+    }
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    padding: 0 20%;
+}
+
+#posts {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#postsBox {
+    width: 40%;
+}
+
+.img {
+    width: 100%;
+}
+
+.post {
+    font-size: 30px;
+    border: 1px solid goldenrod;
+    padding: 50px;
+    margin: 30px 0;
+}
+
+.ava {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.send {
+    width: 50px;
+    height: 50px;
+    margin-left: 70px;
+}
+.avaBox {
+    display: flex;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.like {
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
