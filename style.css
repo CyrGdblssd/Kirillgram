@@ -1,4 +1,4 @@
-﻿body {
+﻿body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,22 +31,17 @@
     padding: 10px;
     padding-right: 50px;
 }
-
-#comments {
-}
-
 .likebtn {
     width: 40px;
     height: 40px;
 }
-
 .img {
     border-radius: 5px;
     position: relative;
     top: 5px;
 }
 
-.storka {
+.upperpart {
     background-color: white;
     z-index: 1;
     position: fixed;
@@ -70,10 +65,6 @@
     left: -250px;
     color: black;
 }
-
-    .Kirillgram:hover {
-    }
-
 nav {
     height: 60px;
     display: flex;
