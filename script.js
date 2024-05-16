@@ -16,8 +16,6 @@ let texts = [
     "Добрый день, это РФМШ",
 ]
 for (let i = 1; i < 100; i++) {
-    newtext = texts[i % 3]
-    text.innerHTML = newtext
     newpost = post.cloneNode(true);
     imgpost = newpost.getElementsByClassName("img")[0]
     text.innerHTML = texts[i % 3]
